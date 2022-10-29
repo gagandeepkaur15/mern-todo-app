@@ -17,11 +17,11 @@ export default function Notes() {
         <div className='todoList'>
             {todos.map(t => {
                 return (
-                    <div className='col-md-4'>
+                    <div className='row-md-'>
                     <div class='card my-4'>
-                        <div class="card-body">
+                        <div class="card-body my-auto">
                             <div className="d-flex">
-                                <h5 className="title mx-auto">{t.todo}</h5>
+                                <p className="title mx-auto">{t.todo}</p>
                                 <button type="button" class="btn btn-outline-danger btn-sm">Delete</button>
                             </div>
                         </div>
